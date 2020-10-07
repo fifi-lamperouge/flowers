@@ -1,0 +1,153 @@
+body,html{
+	margin: 0;
+	padding: 0;
+	background-color: #FAEBD7;
+	width:100%;
+	height: 100%;
+
+}
+.hd{
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	height: 70px;
+	line-height: 70px;
+	top: 0;
+	background-color: black;
+	z-index: 999;
+}
+.hd .hdlogo: {
+	
+	color: white;
+	font-family:'Montserrat', sans-serif;
+    margin-left: 30px;
+    float: left; /*se mettre a gauche */
+    color: white;
+}
+.hd .hdmen {
+	float: right;
+	margin-right: 30px;
+
+}
+.hd .hdmen a{
+	margin-right: 15px;
+	color: white;
+
+}
+.hd .hdmen a:hover {
+	color: grey;
+}
+
+.banner {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background-image: url(image/white.jpg);
+	background-size: cover;
+	background-position: center;
+	animation-duration: 4s;
+	animation: slide 15s 1;
+}
+.banner .banner-content{
+	position: absolute;
+	width: 100%;
+	
+	top: 35%;
+	font-family: 'Tangerine', cursive;
+	left:50%; 
+	margin-right: 50%;
+	
+}
+.banner .banner-content{
+	color: black;
+	font-size: 60px;
+	
+
+}
+.banner .banner-content a{
+	left:60%;	
+	background: #9932CC;
+	padding: 10px 24px;
+	color: white;
+	font-size: 30px;
+	border-radius: 20px;
+}
+.banner-content a:hover{
+	background-color:#DDA0DD;
+	transition: 1s;
+
+
+
+}
+.fade{
+	opacity: 1;
+}
+
+@keyframes slide{
+	0%{
+		background-image: url(image/rose.jpeg);
+
+	}
+	33%{
+		background-image: url(image/bouk.jpg);
+		
+	}
+	67%{
+		background-image: url(image/white.jpg);
+		
+	}
+}
+.bh{
+	font-family: 'Tangerine', cursive;
+	text-align: center;
+	font-size: 70px;
+	top:0;
+	color: black;
+	text-decoration: underline;
+
+}
+.contain{
+	background-color: #FAEBD7;
+	margin-left: 20px;
+	margin-right: 20px;
+
+
+}
+.eleven{
+	height: 100vh;
+}
+.foor{
+	width: 100%;
+	height: 100%;
+}
+.about{
+	height: 500px;
+}
+.me{
+	
+	font-family: 'Playfair Display', serif;
+    margin-left: 30px;
+    float: left; /*se mettre a gauche */
+    
+    font-size: 25px;
+  
+  }
+  footer{
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #D3D3D3;
+  color: black;
+  text-align: center;
+  height: 200px;
+}
+
+
+
+
+
+
